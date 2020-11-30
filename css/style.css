@@ -1,0 +1,211 @@
+
+
+/* common css start */
+
+/* common css end*/
+
+
+/* menubar  css start */
+#menubar .navbar-brand img{
+    filter: brightness(0);
+    width: auto;
+    height: 30px !important;
+}
+/* menubar  css end*/
+
+
+/* hero section start */
+#hero{
+    background: url(../img/bg-25.jpg) center center;
+    background-size: cover;
+}
+#hero .hero-overlay{
+    background: #0000009a;
+    background-size: cover;
+}
+#hero .hero-icon .bx{
+    font-size: 20px;
+    background: #eee;
+    color: #333;
+    transition: ease-in-out .4s;
+}
+#hero .hero-icon .bxl-facebook:hover,
+#footer .bxl-facebook:hover{
+    background: #0010a0;
+    color: rgb(255, 255, 255);
+}
+#hero .hero-icon .bxl-twitter:hover,
+#footer .bxl-twitter:hover{
+    background: #006da0;
+    color: rgb(255, 255, 255);
+}
+#hero .hero-icon .bxl-instagram:hover,
+#footer .bxl-instagram:hover{
+    background: #b9180c;
+    color: rgb(255, 255, 255);
+}
+#hero .hero-icon .bxl-linkedin:hover,
+#footer .bxl-linkedin:hover{
+    background: #0380d3;
+    color: rgb(255, 255, 255);
+}
+#hero .hero-icon .bxl-google:hover,
+#footer .bxl-google:hover{
+    background: #d33303;
+    color: rgb(255, 255, 255);
+}
+#hero .styleing-font{
+    font-family: 'Shadows Into Light', cursive;
+}
+#hero h2 {
+    letter-spacing: 8px;
+}
+#hero h4 {
+    font-size: 40px !important;
+}
+#hero h3 {
+    font-size: 30px !important;
+}
+/* hero section end */
+
+
+/* about section start */
+#about .about-img img{
+    border: 5px solid #fff;
+}
+/* about section end */
+
+
+/*  services   section start */
+#services .bx{
+    font-size: 35px;
+}
+#services h6{
+    font-weight: 900;
+    font-family: 'roboto';
+    transition: ease-in-out .3s;
+}
+#services h6:hover{
+    color: #007bce !important;
+}
+/*  services   section end */
+
+
+/*  work section start */
+#work{
+
+}
+
+#work .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .4s ease;
+    background-color: #0077ff96;
+  }
+  
+  #work .box:hover .overlay {
+    opacity: 1;
+  }
+  
+  #work .box .bx {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  #work .box {
+    height: 220px;
+  }
+  #work .box img{
+    height: 100%;
+    width: 100%;
+  }
+  
+/* work  section end */
+
+
+/* counter section start */
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+#counter{
+    background: url(../img/counter-bag.jpg) fixed center center;
+    background-size: cover;
+}
+#counter .counter-overlay{
+    background: #0000009a;
+    background-size: cover;
+}
+.counter .child-counter i{
+    font-size: 50px;
+    color: rgb(146, 100, 100);
+}
+.counter .child-counter h2{
+    font-size: 40px;
+    color: rgb(36, 24, 24);
+    margin-top: 20px;
+    font-weight: 200;
+    font-family: "Roboto Slab";
+}
+.counter .child-counter h2 span{
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 900;
+}
+.counter .child-counter p{
+    font-size: 18px;
+    color: rgb(17, 12, 12);
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+/* counter section end */
+
+
+/* contact section start */
+#contact .box .bx{
+    font-size: 25px;
+}
+/* contact section end */
+
+/* footer section start */
+#footer .bx{
+    font-size: 25px;
+    background: #eee;
+    color: black;
+    transition: ease-in-out .4s;
+}
+/* footer section end */
+
+.activ{
+    background: #e93838 !important;
+    border: 2px solid #0010a0 !important;
+    color: #0ad3f7;
+    
+}
+
+
+/* go top */
+.goto{
+    width: 45px ;
+    height: 45px;
+    border-radius: 50%;
+    background: #00598d;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.goto .as{
+    width: 45px ;
+    height: 45px;
+}
+.goto .as .bx{
+    font-size: 24px;
+
+}
